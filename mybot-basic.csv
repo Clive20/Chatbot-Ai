@@ -1,0 +1,105 @@
+Question,Answer
+pattern,template
+HELLO,Hello! How are you?
+HELLO *,<srai>HELLO</srai>
+HI,<srai>HELLO</srai>
+HI *,<srai>HELLO</srai>
+HOW ARE YOU,I'm functioning within normal parameters, thanks for asking.
+I AM FINE,That's good to know. What would you like to discuss about?
+BYE,#0$Bye! Nice talking to you. You take care now.
+GOODBYE,<srai>BYE</srai>
+EXIT,<srai>BYE</srai>
+THANKS,You are welcome.
+THANK YOU,<srai>THANKS</srai>
+CHEERS,Sure mate.
+CHEERS *,Sure mate.
+WHAT IS A BIG CAT,A big cat is a large predatory mammal that belongs to the Felidae family such as lions, tigers, leopards jaguars and cougars.
+TELL ME ABOUT BIG CATS,The term big cat is typically used to refer to any of the five living members of the genus Panthera namely the tiger lion jaguar leopard and snow leopard as well as the non-pantherine cheetah and cougar.
+TELL ME ABOUT LIONS,Lions are one of the biggest cats and are known for their majestic manes. They are the only social cats and live in prides.
+WHAT IS THE BIGGEST CAT,The biggest cat is the Siberian tiger which can weigh up to 700 pounds and grow up to 10 feet long from nose to tail.
+WHAT DO TIGERS EAT,Tigers are carnivorous and primarily eat deer wild boar and buffalo.
+WHERE DO CHEETAHS LIVE,Cheetahs are found in parts of Africa and Iran, mainly in open grasslands and savannas.
+HOW FAST CAN A CHEETAH RUN,Cheetahs are the fastest land animals and can run up to speeds of 70 miles per hour.
+TELL ME ABOUT JAGUARS,Jaguars are the largest cats in the Americas and are known for their strong jaws and hunting abilities. They are found in South and Central America.
+DO COUGARS LIVE IN GROUPS,Cougars also known as mountain lions are solitary animals and do not live in groups.
+WHAT IS A BLACK PANTHER,A black panther is a melanistic color variant of any big cat species such as leopards or jaguars that produces an all-black pigmentation.
+WHERE DO SNOW LEOPARDS LIVE,Snow leopards are found in the mountains of Central and South Asia including the Himalayas.
+DO LIONS LIVE IN GROUPS?,Yes lions are social animals and live in groups called prides.
+WHERE DO LIONS LIVE?,Lions are found in Africa and in some parts of India.
+WHAT DO LIONS EAT?,Lions are carnivorous and mainly feed on herbivores such as zebras gazelles and wildebeests.
+HOW FAST CAN LIONS RUN?,Lions can run up to 50 miles per hour (80 km/h).
+HOW LONG DO LIONS SLEEP?,Lions sleep for about 16-20 hours a day.
+HOW LONG DO LIONS LIVE IN THE WILD?,Lions live for about 10-14 years in the wild.
+HOW DO LIONS COMMUNICATE?,Lions communicate through various sounds such as roars growls and grunts.
+HOW BIG ARE MALE LIONS?,Male lions can weigh up to 550 pounds (250 kg) and can grow up to 10 feet (3 meters) in length.
+DO LIONS HAVE MANES?,Yes male lions have manes, while females do not.
+WHAT IS THE BIGGEST THREAT TO LIONS?,The biggest threat to lions is habitat loss and poaching.
+What is a cheetah?,A cheetah is a large fast-running cat that is native to Africa and some parts of Iran.
+How fast can a cheetah run?,Cheetahs are the fastest land animals and can run up to speeds of 70 miles per hour.
+What do cheetahs eat?,Cheetahs are carnivorous and primarily eat small to medium-sized prey such as gazelles and impalas.
+Where do cheetahs live?,Cheetahs are found in parts of Africa and Iran mainly in open grasslands and savannas.
+How many cheetahs are left in the wild?,It is estimated that there are only around 7,000 cheetahs left in the wild due to habitat loss and hunting.
+Do cheetahs live in groups?,Cheetahs are typically solitary animals but mothers may raise their cubs together for a short period of time.
+How long do cheetahs live?,Cheetahs typically live for 10-12 years in the wild but can live up to 20 years in captivity.
+WHAT IS A TIGER?,The tiger is the largest living cat species and a member of the genus Panthera.
+WHERE DO TIGERS LIVE?,Tigers are found in Asia, including India, China, and Indonesia.
+WHAT DO TIGERS EAT?,Tigers are carnivorous and mainly feed on large prey such as deer, wild pigs, and buffalo.
+HOW FAST CAN TIGERS RUN?,Tigers can run up to 60 miles per hour (96 km/h).
+HOW LONG DO TIGERS SLEEP?,Tigers sleep for about 15-18 hours a day.
+HOW LONG DO TIGERS LIVE IN THE WILD?,Tigers live for about 8-10 years in the wild.
+HOW DO TIGERS COMMUNICATE?,Tigers communicate through various sounds such as roars, growls, and chuffs.
+HOW BIG ARE TIGERS?,Tigers can weigh up to 660 pounds (300 kg) and can grow up to 11 feet (3.3 meters) in length.
+DO TIGERS HAVE STRIPES?,Yes tigers have distinctive orange coats with black stripes.
+ARE TIGERS ENDANGERED?,Yes tigers are endangered due to habitat loss, poaching, and illegal wildlife trade.
+HOW MANY SUBSPECIES OF TIGERS ARE THERE?,There are currently 6
+WHAT IS A JAGUAR?,The jaguar is a large cat species and the only living member of the genus Panthera native to the Americas.
+WHERE DO JAGUARS LIVE?,Jaguars are found in Central and South America, including the Amazon rainforest and the Pantanal wetlands.
+WHAT DO JAGUARS EAT?,Jaguars are carnivorous and mainly feed on large prey such as deer, peccaries, and capybaras.
+HOW FAST CAN JAGUARS RUN?,Jaguars can run up to 50 miles per hour (80 km/h).
+HOW LONG DO JAGUARS SLEEP?,Jaguars sleep for about 12-14 hours a day.
+HOW LONG DO JAGUARS LIVE IN THE WILD?,Jaguars live for about 12-15 years in the wild.
+HOW DO JAGUARS COMMUNICATE?,Jaguars communicate through various sounds such as growls, roars, and grunts.
+HOW BIG ARE JAGUARS?,Jaguars can weigh up to 220 pounds (100 kg) and can grow up to 6 feet (1.8 meters) in length.
+DO JAGUARS HAVE SPOTS?,Yes jaguars have distinctive orange and black spots on their coat.
+ARE JAGUARS ENDANGERED?,Yes jaguars are classified as near threatened due to habitat loss, fragmentation, and poaching.
+WHAT IS THE DIFFERENCE BETWEEN JAGUARS AND LEOPARDS?, Jaguars have shorter legs and a stockier build compared to leopards. Jaguars also have larger more robust skulls with stronger jaws and larger canine teeth.
+WHAT IS A BLACK PANTHER?,A black panther is a melanistic color variant of any big cat species, such as leopards or jaguars, that have a black coat due to a genetic mutation.
+WHERE DO BLACK PANTHERS LIVE?,Black panthers can be found in various habitats, including tropical rainforests, mountains, and grasslands across Asia, Africa, and South America.
+HOW FAST CAN BLACK PANTHERS RUN?,Black panthers can run up to 50 miles per hour (80 km/h).
+WHAT DO BLACK PANTHERS EAT?,Black panthers are carnivorous and mainly feed on large prey such as deer, antelopes, and wild boars.
+HOW LONG DO BLACK PANTHERS SLEEP?,Black panthers sleep for about 12-14 hours a day.
+HOW LONG DO BLACK PANTHERS LIVE IN THE WILD?,Black panthers can live up to 12 years in the wild.
+ARE BLACK PANTHERS ENDANGERED?,Yes black panthers like their non-melanistic counterparts, are threatened due to habitat loss and poaching.
+WHAT IS THE DIFFERENCE BETWEEN BLACK PANTHERS AND REGULAR PANTHERS?,There is no difference between black panthers and regular panthers, as "panther" is a term used to describe any big cat with a black coat due to melanism.
+CAN BLACK PANTHERS ROAR?,Yes black panthers like their non-melanistic counterparts, can roar and make various other vocalizations such as growls and purrs.
+HOW BIG ARE BLACK PANTHERS?,Black panthers can weigh up to 200 pounds (90 kg) and can grow up to 6 feet (1.8 meters) in length.
+WHAT IS A SNOW LEOPARD?,A snow leopard is a large cat that is native to the mountain ranges of Central and South Asia.
+WHERE DO SNOW LEOPARDS LIVE?,Snow leopards live in the mountains of Central and South Asia, including the Himalayas and the Tibetan Plateau.
+WHAT DO SNOW LEOPARDS EAT?,Snow leopards are carnivorous and mainly feed on blue sheep, ibex, and other mountain ungulates, as well as smaller mammals like hares and birds.
+HOW TALL ARE SNOW LEOPARDS?,Snow leopards can grow up to 60-120 cm tall at the shoulder.
+HOW HEAVY ARE SNOW LEOPARDS?,Snow leopards can weigh up to 55-120 kg.
+ARE SNOW LEOPARDS ENDANGERED?,Yes snow leopards are endangered due to habitat loss, poaching, and climate change.
+HOW MANY SNOW LEOPARDS ARE LEFT IN THE WILD?,It is estimated that there are only around 4,000-6,500 snow leopards left in the wild.
+WHAT IS THE LIFESPAN OF A SNOW LEOPARD?,The average lifespan of a snow leopard is around 10-12 years in the wild and up to 20 years in captivity.
+CAN SNOW LEOPARDS ROAR?,Snow leopards can make a range of vocalizations including growls hisses and chuffing sounds but they cannot roar like other big cats.
+HOW DO SNOW LEOPARDS ADAPT TO THEIR COLD ENVIRONMENT?,Snow leopards have several physical adaptations to help them survive in their cold mountain habitat including a thick, woolly coat, large paws that act like snowshoes and a long tail that they can wrap around their body for warmth.
+What is a cougar?,A cougar is a large cat that is native to the Americas.
+Where do cougars live?,Cougars live in a variety of habitats including mountains forests and deserts.
+What do cougars eat?,Cougars are carnivores and primarily eat deer but will also eat smaller mammals like rabbits and rodents.
+Are cougars dangerous?,Cougars are wild animals and can be dangerous if provoked or cornered. It is important to give them space and avoid confrontations.
+How fast can cougars run?,Cougars are incredibly fast and can run up to 50 miles per hour for short distances.
+How big are cougars?,Cougars can weigh up to 220 pounds and grow up to 8 feet in length from nose to tail.
+Do cougars roar?,Cougars do not roar like lions, but they can make a variety of sounds including growls hisses and purrs.
+How long do cougars live?,Cougars typically live for 8-10 years in the wild but can live up to 20 years in captivity.
+WHAT IS THE DIFFERENCE BETWEEN A COUGAR AND A MOUNTAIN LION?, There is no difference between a cougar and a mountain lion. They are just different names for the same animal.
+ARE COUGARS ENDANGERED?, Cougars are not currently considered endangered but their populations are declining due to habitat loss and hunting.
+What is a leopard?,A leopard is a large cat that is native to Africa and parts of Asia.
+Where do leopards live?,Leopards live in a variety of habitats including forests grasslands and deserts.
+What do leopards eat?,Leopards are carnivores and primarily eat small and medium-sized prey such as gazelles impalas and monkeys.
+Are leopards dangerous?,Leopards can be dangerous if they feel threatened or if they are cornered. It is important to give them space and avoid confrontations.
+How fast can leopards run?,Leopards are incredibly fast and can run up to 36 miles per hour.
+How big are leopards?,Leopards can weigh up to 200 pounds and grow up to 6 feet in length from nose to tail.
+Do leopards roar?,Leopards can roar but they are more likely to make a variety of other sounds such as grunts growls and meows.
+How long do leopards live?,Leopards typically live for 12-15 years in the wild but can live up to 23 years in captivity.
+What is the difference between a leopard and a cheetah?,Leopards are larger and more muscular than cheetahs and have distinctive spots rather than the cheetah's spots which are more like solid black spots on a tan background.
+Are leopards endangered?,Leopards are currently considered a vulnerable species due to habitat loss and hunting.

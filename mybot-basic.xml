@@ -1,0 +1,509 @@
+<aiml version = "2.0" encoding = "UTF-8">
+
+  <!-- Greetings and Politeness -->
+  <category> <pattern> HELLO </pattern>
+    <template>Hello! How are you?</template> </category>
+  
+  <category> <pattern> HELLO * </pattern>
+    <template><srai>HELLO</srai></template> </category>
+  
+  <category> <pattern> HI </pattern>
+    <template><srai>HELLO</srai></template> </category>
+  
+  <category> <pattern> HI * </pattern>
+    <template><srai>HELLO</srai></template> </category>
+  
+  <category> <pattern> HOW ARE YOU </pattern>
+    <template>I'm functioning within normal parameters, thanks for asking.</template></category>
+  
+  <category><pattern> I AM FINE </pattern>
+    <template>That's good to know. What would you like to discuss about?</template></category>
+  
+  <category> <pattern> THANKS </pattern>
+    <template>You are welcome.</template></category>
+  
+  <category> <pattern> THANK YOU </pattern>
+    <template><srai>THANKS</srai></template></category>
+  
+  <category> <pattern> CHEERS </pattern>
+    <template>Sure mate.</template></category>
+  
+  <category> <pattern> CHEERS * </pattern>
+    <template>Sure mate.</template></category>
+
+    <category>
+      <pattern>WHAT IS THIS IMAGE</pattern>
+      <template>IMAGE_CLASSIFICATION</template>
+  </category>
+
+  <category>
+    <pattern>START VIDEO FACE RECOGNITION</pattern>
+    <template>VIDEO_FACE_RECOGNITION</template>
+  </category>
+  
+    <!-- Big cat general quenstions -->
+    <category>
+      <pattern>WHAT IS A BIG CAT</pattern>
+      <template>A big cat is a large predatory mammal that belongs to the Felidae family, such as lions, tigers, leopards, jaguars, and cougars.</template>
+    </category>
+
+    <category>
+      <pattern>TELL ME ABOUT BIG CATS</pattern>
+      <template>The term "big cat" is typically used to refer to any of the five living members of the genus Panthera, namely the tiger, lion, jaguar, leopard, and snow leopard, as well as the non-pantherine cheetah and cougar.</template>
+    </category>
+    
+    <category>
+      <pattern>TELL ME ABOUT LIONS</pattern>
+      <template>Lions are one of the biggest cats and are known for their majestic manes. They are the only social cats and live in prides.</template>
+    </category>
+    
+    <category>
+      <pattern>WHAT IS THE BIGGEST CAT</pattern>
+      <template>The biggest cat is the Siberian tiger, which can weigh up to 700 pounds and grow up to 10 feet long from nose to tail.</template>
+    </category>
+    
+    <category>
+      <pattern>WHAT DO TIGERS EAT</pattern>
+      <template>Tigers are carnivorous and primarily eat deer, wild boar, and buffalo.</template>
+    </category>
+    
+    <category>
+      <pattern>WHERE DO CHEETAHS LIVE</pattern>
+      <template>Cheetahs are found in parts of Africa and Iran, mainly in open grasslands and savannas.</template>
+    </category>
+    
+    <category>
+      <pattern>HOW FAST CAN A CHEETAH RUN</pattern>
+      <template>Cheetahs are the fastest land animals and can run up to speeds of 70 miles per hour.</template>
+    </category>
+    
+    <category>
+      <pattern>TELL ME ABOUT JAGUARS</pattern>
+      <template>Jaguars are the largest cats in the Americas and are known for their strong jaws and hunting abilities. They are found in South and Central America.</template>
+    </category>
+    
+    <category>
+      <pattern>DO COUGARS LIVE IN GROUPS</pattern>
+      <template>Cougars, also known as mountain lions, are solitary animals and do not live in groups.</template>
+    </category>
+    
+    <category>
+      <pattern>WHAT IS A BLACK PANTHER</pattern>
+      <template>A black panther is a melanistic color variant of any big cat species, such as leopards or jaguars, that produces an all-black pigmentation.</template>
+    </category>
+    
+    <category>
+      <pattern>WHERE DO SNOW LEOPARDS LIVE</pattern>
+      <template>Snow leopards are found in the mountains of Central and South Asia, including the Himalayas.</template>
+    </category>
+    <!-- Lions -->
+    <category>
+      <pattern>DO LIONS LIVE IN GROUPS?</pattern>
+      <template>Yes, lions are social animals and live in groups called prides.</template>
+    </category>
+
+    <category>
+      <pattern>WHERE DO LIONS LIVE?</pattern>
+      <template>Lions are found in Africa and in some parts of India.</template>
+    </category>
+
+    <category>
+      <pattern>WHAT DO LIONS EAT?</pattern>
+      <template>Lions are carnivorous and mainly feed on herbivores such as zebras, gazelles, and wildebeests.</template>
+    </category>
+
+    <category>
+      <pattern>HOW FAST CAN LIONS RUN?</pattern>
+      <template>Lions can run up to 50 miles per hour (80 km/h).</template>
+    </category>
+
+    <category>
+      <pattern>HOW LONG DO LIONS SLEEP?</pattern>
+      <template>Lions sleep for about 16-20 hours a day.</template>
+    </category>
+
+    <category>
+      <pattern>HOW LONG DO LIONS LIVE IN THE WILD?</pattern>
+      <template>Lions live for about 10-14 years in the wild.</template>
+    </category>
+
+    <category>
+      <pattern>HOW DO LIONS COMMUNICATE?</pattern>
+      <template>Lions communicate through various sounds such as roars, growls, and grunts.</template>
+    </category>
+
+    <category>
+      <pattern>HOW BIG ARE MALE LIONS?</pattern>
+      <template>Male lions can weigh up to 550 pounds (250 kg) and can grow up to 10 feet (3 meters) in length.</template>
+    </category>
+
+    <category>
+      <pattern>DO LIONS HAVE MANES?</pattern>
+      <template>Yes, male lions have manes, while females do not.</template>
+    </category>
+
+    <category>
+      <pattern>WHAT IS THE BIGGEST THREAT TO LIONS?</pattern>
+      <template>The biggest threat to lions is habitat loss and poaching.</template>
+    </category>
+    <!-- cheetahs -->
+  <category>
+    <pattern>WHAT IS A CHEETAH</pattern>
+    <template>A cheetah is a large, fast-running cat that is native to Africa and some parts of Iran.</template>
+  </category>
+  
+  <category>
+    <pattern>HOW FAST CAN A CHEETAH RUN</pattern>
+    <template>Cheetahs are the fastest land animals and can run up to speeds of 70 miles per hour.</template>
+  </category>
+  
+  <category>
+    <pattern>WHAT DO CHEETAHS EAT</pattern>
+    <template>Cheetahs are carnivorous and primarily eat small to medium-sized prey such as gazelles and impalas.</template>
+  </category>
+  
+  <category>
+    <pattern>WHERE DO CHEETAHS LIVE</pattern>
+    <template>Cheetahs are found in parts of Africa and Iran, mainly in open grasslands and savannas.</template>
+  </category>
+  
+  <category>
+    <pattern>HOW MANY CHEETAHS ARE LEFT IN THE WILD</pattern>
+    <template>It is estimated that there are only around 7,000 cheetahs left in the wild due to habitat loss and hunting.</template>
+  </category>
+  
+  <category>
+    <pattern>DO CHEETAHS LIVE IN GROUPS</pattern>
+    <template>Cheetahs are typically solitary animals, but mothers may raise their cubs together for a short period of time.</template>
+  </category>
+  
+  <category>
+    <pattern>HOW LONG DO CHEETAHS LIVE</pattern>
+    <template>Cheetahs typically live for 10-12 years in the wild, but can live up to 20 years in captivity.</template>
+  </category>
+  
+  <category>
+    <pattern>HOW DO CHEETAHS HUNT</pattern>
+    <template>Cheetahs are known for their speed and agility, and will often chase down their prey and use their sharp claws and teeth to take it down.</template>
+  </category>
+  
+  <category>
+    <pattern>CAN CHEETAHS CLIMB TREES</pattern>
+    <template>While cheetahs are not known for their climbing abilities, they are capable of climbing trees if they need to.</template>
+  </category>
+  
+  <category>
+    <pattern>ARE CHEETAHS ENDANGERED</pattern>
+    <template>Yes, cheetahs are considered a vulnerable species and are at risk of extinction due to habitat loss, poaching, and human-wildlife conflict.</template>
+  </category>
+  <!-- Tigers-->
+  <category>
+    <pattern>WHAT IS A TIGER?</pattern>
+    <template>The tiger is the largest living cat species and a member of the genus Panthera.</template>
+  </category>
+  <category>
+    <pattern>WHERE DO TIGERS LIVE?</pattern>
+    <template>Tigers are found in Asia, including India, China, and Indonesia.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO TIGERS EAT?</pattern>
+    <template>Tigers are carnivorous and mainly feed on large prey such as deer, wild pigs, and buffalo.</template>
+  </category>
+
+  <category>
+    <pattern>HOW FAST CAN TIGERS RUN?</pattern>
+    <template>Tigers can run up to 60 miles per hour (96 km/h).</template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DO TIGERS SLEEP?</pattern>
+    <template>Tigers sleep for about 15-18 hours a day.</template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DO TIGERS LIVE IN THE WILD?</pattern>
+    <template>Tigers live for about 8-10 years in the wild.</template>
+  </category>
+
+  <category>
+    <pattern>HOW DO TIGERS COMMUNICATE?</pattern>
+    <template>Tigers communicate through various sounds such as roars, growls, and chuffs.</template>
+  </category>
+
+  <category>
+    <pattern>HOW BIG ARE TIGERS?</pattern>
+    <template>Tigers can weigh up to 660 pounds (300 kg) and can grow up to 11 feet (3.3 meters) in length.</template>
+  </category>
+
+  <category>
+    <pattern>DO TIGERS HAVE STRIPES?</pattern>
+    <template>Yes, tigers have distinctive orange coats with black stripes.</template>
+  </category>
+
+  <category>
+    <pattern>ARE TIGERS ENDANGERED?</pattern>
+    <template>Yes, tigers are endangered due to habitat loss, poaching, and illegal wildlife trade.</template>
+  </category>
+
+  <category>
+    <pattern>HOW MANY SUBSPECIES OF TIGERS ARE THERE?</pattern>
+    <template>There are currently 6 subspecies of tigers: Bengal, Indochinese, Malayan, Siberian, South China, and Sumatran.</template>
+  </category>
+<!-- Jaguars-->
+<category>
+  <pattern>WHAT IS A JAGUAR?</pattern>
+  <template>The jaguar is a large cat species and the only living member of the genus Panthera native to the Americas.</template>
+</category>
+
+  <category>
+    <pattern>WHERE DO JAGUARS LIVE?</pattern>
+    <template>Jaguars are found in Central and South America, including the Amazon rainforest and the Pantanal wetlands.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO JAGUARS EAT?</pattern>
+    <template>Jaguars are carnivorous and mainly feed on large prey such as deer, peccaries, and capybaras.</template>
+  </category>
+
+  <category>
+    <pattern>HOW FAST CAN JAGUARS RUN?</pattern>
+    <template>Jaguars can run up to 50 miles per hour (80 km/h).</template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DO JAGUARS SLEEP?</pattern>
+    <template>Jaguars sleep for about 12-14 hours a day.</template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DO JAGUARS LIVE IN THE WILD?</pattern>
+    <template>Jaguars live for about 12-15 years in the wild.</template>
+  </category>
+
+  <category>
+    <pattern>HOW DO JAGUARS COMMUNICATE?</pattern>
+    <template>Jaguars communicate through various sounds such as growls, roars, and grunts.</template>
+  </category>
+
+  <category>
+    <pattern>HOW BIG ARE JAGUARS?</pattern>
+    <template>Jaguars can weigh up to 220 pounds (100 kg) and can grow up to 6 feet (1.8 meters) in length.</template>
+  </category>
+
+  <category>
+    <pattern>DO JAGUARS HAVE SPOTS?</pattern>
+    <template>Yes, jaguars have distinctive orange and black spots on their coat.</template>
+  </category>
+
+  <category>
+    <pattern>ARE JAGUARS ENDANGERED?</pattern>
+    <template>Yes, jaguars are classified as near threatened due to habitat loss, fragmentation, and poaching.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE DIFFERENCE BETWEEN JAGUARS AND LEOPARDS?</pattern>
+    <template>Jaguars have shorter legs and a stockier build compared to leopards. Jaguars also have larger, more robust skulls with stronger jaws and larger canine teeth.</template>
+  </category>
+  <!-- Black panther-->
+  <category>
+    <pattern>WHAT IS A BLACK PANTHER?</pattern>
+    <template>A black panther is a melanistic color variant of any big cat species, such as leopards or jaguars, that have a black coat due to a genetic mutation.</template>
+  </category>
+
+  <category>
+    <pattern>WHERE DO BLACK PANTHERS LIVE?</pattern>
+    <template>Black panthers can be found in various habitats, including tropical rainforests, mountains, and grasslands across Asia, Africa, and South America.</template>
+  </category>
+
+  <category>
+    <pattern>HOW FAST CAN BLACK PANTHERS RUN?</pattern>
+    <template>Black panthers can run up to 50 miles per hour (80 km/h).</template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO BLACK PANTHERS EAT?</pattern>
+    <template>Black panthers are carnivorous and mainly feed on large prey such as deer, antelopes, and wild boars.</template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DO BLACK PANTHERS SLEEP?</pattern>
+    <template>Black panthers sleep for about 12-14 hours a day.</template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DO BLACK PANTHERS LIVE IN THE WILD?</pattern>
+    <template>Black panthers can live up to 12 years in the wild.</template>
+  </category>
+  
+  <category>
+    <pattern>ARE BLACK PANTHERS ENDANGERED?</pattern>
+    <template>Yes, black panthers, like their non-melanistic counterparts, are threatened due to habitat loss and poaching.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE DIFFERENCE BETWEEN BLACK PANTHERS AND REGULAR PANTHERS?</pattern>
+    <template>There is no difference between black panthers and regular panthers, as "panther" is a term used to describe any big cat with a black coat due to melanism.</template>
+  </category>
+
+  <category>
+    <pattern>CAN BLACK PANTHERS ROAR?</pattern>
+    <template>Yes, black panthers, like their non-melanistic counterparts, can roar and make various other vocalizations such as growls and purrs.</template>
+  </category>
+
+  <category>
+    <pattern>HOW BIG ARE BLACK PANTHERS?</pattern>
+    <template>Black panthers can weigh up to 200 pounds (90 kg) and can grow up to 6 feet (1.8 meters) in length.</template>
+  </category>
+  <!-- snow leopards-->
+  <category>
+    <pattern>WHAT IS A SNOW LEOPARD?</pattern>
+    <template>A snow leopard is a large cat that is native to the mountain ranges of Central and South Asia.</template>
+  </category>
+
+  <category>
+    <pattern>WHERE DO SNOW LEOPARDS LIVE?</pattern>
+    <template>Snow leopards live in the mountains of Central and South Asia, including the Himalayas and the Tibetan Plateau.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO SNOW LEOPARDS EAT?</pattern>
+    <template>Snow leopards are carnivorous and mainly feed on blue sheep, ibex, and other mountain ungulates, as well as smaller mammals like hares and birds.</template>
+  </category>
+
+  <category>
+    <pattern>HOW TALL ARE SNOW LEOPARDS?</pattern>
+    <template>Snow leopards can grow up to 60-120 cm tall at the shoulder.</template>
+  </category>
+
+  <category>
+    <pattern>HOW HEAVY ARE SNOW LEOPARDS?</pattern>
+    <template>Snow leopards can weigh up to 55-120 kg.</template>
+  </category>
+
+  <category>
+    <pattern>ARE SNOW LEOPARDS ENDANGERED?</pattern>
+    <template>Yes, snow leopards are listed as endangered by the International Union for Conservation of Nature (IUCN) due to habitat loss, poaching, and other threats.</template>
+  </category>
+
+  <category>
+    <pattern>HOW MANY SNOW LEOPARDS ARE LEFT IN THE WILD?</pattern>
+    <template>It is estimated that there are only 4,000-6,500 snow leopards left in the wild.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE MAIN THREATS TO SNOW LEOPARDS?</pattern>
+    <template>The main threats to snow leopards are habitat loss, poaching, and human-wildlife conflict.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS BEING DONE TO PROTECT SNOW LEOPARDS?</pattern>
+    <template>Various conservation organizations are working to protect snow leopards and their habitats, through measures such as anti-poaching efforts, community-based conservation, and research and monitoring.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I HELP PROTECT SNOW LEOPARDS?</pattern>
+    <template>You can help protect snow leopards by supporting conservation organizations, spreading awareness, and avoiding products made from endangered species.</template>
+  </category>
+
+  <!-- Cougar -->
+  <category>
+    <pattern>WHAT IS A COUGAR?</pattern>
+    <template>A cougar is a large cat that is native to the Americas.</template>
+  </category>
+
+  <category>
+    <pattern>WHERE DO COUGARS LIVE?</pattern>
+    <template>Cougars live in a variety of habitats including mountains, forests, and deserts.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO COUGARS EAT?</pattern>
+    <template>Cougars are carnivores and primarily eat deer, but will also eat smaller mammals like rabbits and rodents.</template>
+  </category>
+
+  <category>
+    <pattern>ARE COUGARS DANGEROUS?</pattern>
+    <template>Cougars are wild animals and can be dangerous if provoked or cornered. It is important to give them space and avoid confrontations.</template>
+  </category>
+
+  <category>
+    <pattern>HOW FAST CAN COUGARS RUN?</pattern>
+    <template>Cougars are incredibly fast and can run up to 50 miles per hour for short distances.</template>
+  </category>
+
+  <category>
+    <pattern>HOW BIG ARE COUGARS?</pattern>
+    <template>Cougars can weigh up to 220 pounds and grow up to 8 feet in length from nose to tail.</template>
+  </category>
+
+  <category>
+    <pattern>DO COUGARS ROAR?</pattern>
+    <template>Cougars do not roar like lions, but they can make a variety of sounds including growls, hisses, and purrs.</template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DO COUGARS LIVE?</pattern>
+    <template>Cougars typically live for 8-10 years in the wild, but can live up to 20 years in captivity.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE DIFFERENCE BETWEEN A COUGAR AND A MOUNTAIN LION?</pattern>
+    <template>There is no difference between a cougar and a mountain lion. They are just different names for the same animal.</template>
+  </category>
+
+  <category>
+    <pattern>ARE COUGARS ENDANGERED?</pattern>
+    <template>Cougars are not currently considered endangered, but their populations are declining due to habitat loss and hunting.</template>
+  </category>
+ <!-- Leopard -->
+  <category>
+    <pattern>WHAT IS A LEOPARD?</pattern>
+    <template>A leopard is a large cat that is native to Africa and parts of Asia.</template>
+  </category>
+
+  <category>
+    <pattern>WHERE DO LEOPARDS LIVE?</pattern>
+    <template>Leopards live in a variety of habitats including forests, grasslands, and deserts.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO LEOPARDS EAT?</pattern>
+    <template>Leopards are carnivores and primarily eat small and medium-sized prey such as gazelles, impalas, and monkeys.</template>
+  </category>
+
+  <category>
+    <pattern>ARE LEOPARDS DANGEROUS?</pattern>
+    <template>Leopards can be dangerous if they feel threatened or if they are cornered. It is important to give them space and avoid confrontations.</template>
+  </category>
+
+  <category>
+    <pattern>HOW FAST CAN LEOPARDS RUN?</pattern>
+    <template>Leopards are incredibly fast and can run up to 36 miles per hour.</template>
+  </category>
+
+  <category>
+    <pattern>HOW BIG ARE LEOPARDS?</pattern>
+    <template>Leopards can weigh up to 200 pounds and grow up to 6 feet in length from nose to tail.</template>
+  </category>
+
+  <category>
+    <pattern>DO LEOPARDS ROAR?</pattern>
+    <template>Leopards can roar, but they are more likely to make a variety of other sounds such as grunts, growls, and meows.</template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DO LEOPARDS LIVE?</pattern>
+    <template>Leopards typically live for 12-15 years in the wild, but can live up to 23 years in captivity.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE DIFFERENCE BETWEEN A LEOPARD AND A CHEETAH?</pattern>
+    <template>Leopards are larger and more muscular than cheetahs, and have distinctive spots rather than the cheetah's spots, which are more like solid black spots on a tan background.</template>
+  </category>
+
+  <category>
+    <pattern>ARE LEOPARDS ENDANGERED?</pattern>
+    <template>Leopards are currently considered a vulnerable species due to habitat loss and hunting.</template>
+  </category>
+  </aiml>
