@@ -10,7 +10,7 @@ This system is a chatbot that includes features like question-answering, facial 
 -	TfidfVectorizer: Transforms text to feature vectors that can be used to calculate the similarity between user inputs and the questions in the chatbot's knowledge base.
 -	CoreNLPParser: A parser from the NLTK library, which is used for natural language processing tasks.
 
-# the system should have the following requirements and functionalities from a user's perspective:
+# The system should have the following requirements and functionalities from a user's perspective:
 - Engage in a text-based conversation with the user.
 -	Perform video face recognition and display the detected faces on the screen.
 -	Classify images as either a lion or a tiger with associated probabilities.
