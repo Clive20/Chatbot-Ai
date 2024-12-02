@@ -37,7 +37,7 @@ This system is a chatbot that includes features like question-answering, facial 
 -	Tkinter
 -	urllib.request
 
-# Screenshots
+ Screenshots
 ![image](https://github.com/Clive20/Chatbot-Ai/assets/74508019/1a67e4b3-81e4-48c9-a791-7c447df904bb)
 ![image](https://github.com/Clive20/Chatbot-Ai/assets/74508019/db88ad9c-5e99-42d2-9a3a-71e314c921bb)
 ![image](https://github.com/Clive20/Chatbot-Ai/assets/74508019/f950c2dd-fbf2-48fe-b976-a882f2cc0445)
